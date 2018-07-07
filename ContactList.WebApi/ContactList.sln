@@ -8,9 +8,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactList.DomainModel", "ContactList.DomainModels\ContactList.DomainModel.csproj", "{67B6E0A1-0D70-4617-8543-255B8E11D552}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1C4552CB-05DC-4A17-9891-9FCE5C01C81B}"
-	ProjectSection(SolutionItems) = preProject
-		C:\Users\Andrey\Desktop\ContactList.bmpr = C:\Users\Andrey\Desktop\ContactList.bmpr
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
