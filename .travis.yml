@@ -7,11 +7,7 @@ branches:
 script:
   - dotnet build ./ContactList.WebApi/ContactList.sln -c Release
 deploy:
-      - provider: s3
-      - provider: codedeploy
-        access_key_id: AKIAIU44V3FCYOTPWKCQ
-        secret_access_key: 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
-        bucket: uniqbucketname1999
-        key: latest/ContactList.zip
-        application: ContactList
-        deployment_group: Unit
+  provider: s3
+  access_key_id: AKIAIU44V3FCYOTPWKCQ
+  secret_access_key: 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
+  bucket: uniqbucketname1999
