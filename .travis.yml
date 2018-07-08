@@ -8,9 +8,11 @@ script:
   - dotnet build ./ContactList.WebApi/ContactList.sln -c Release
   travis setup releases
 deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: contactlistToken
-  keep-history: true
-  on:
-    branch: master
+      - provider: s3
+      - provider: codedeploy
+        access_key_id: accesskeyid
+        secret_access_key: secretaccesskey
+        bucket: uniqbucketname1999
+        key: latest/ContactList.zip
+        application: ContactList
+        deployment_group: Unit
