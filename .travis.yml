@@ -8,4 +8,4 @@ branches:
   - master
 script:
   - dotnet restore
-  - dotnet build "ContactList/ContactList.sln"
+  - dotnet build "ContactList/ContactList.sln" -c Debug -f netcoreapp2.0
