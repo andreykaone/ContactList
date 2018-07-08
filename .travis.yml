@@ -3,10 +3,8 @@ sudo: required
 dist: trusty
 mono: none
 dotnet: 2.0.0
+solution: "ContactList.WebApi/ContactList.sln"
 branches:
  only:
   - master
-before_script:
-  - dotnet restore
-script:
-  - dotnet build "/ContactList.WebApi/ContactList.sln" -c Debug -f netcoreapp2.0
+
