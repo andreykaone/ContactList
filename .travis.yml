@@ -1,6 +1,16 @@
-sudo: false
 language: csharp
-solution: "travis-ci_sample/travis-ci_sample.sln"
+mono: none
+dotnet: 2.0.0
 branches:
  only:
   - master
+script:
+  - dotnet build ./ContactList.WebApi/ContactList.sln -c Release
+  travis setup releases
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: contactlistToken
+  keep-history: true
+  on:
+    branch: master
