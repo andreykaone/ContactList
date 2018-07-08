@@ -5,6 +5,3 @@ solution: "ContactList.WebApi/ContactList.sln"
 branches:
  only:
   - master
-script:
-  - dotnet restore
-  - dotnet build
