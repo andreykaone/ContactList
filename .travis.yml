@@ -9,4 +9,4 @@ branches:
 before_script:
   - dotnet restore
 script:
-  - dotnet build ./ContactList.WebApi/ContactList.sln -c Debug -f netcoreapp2.0
+  - dotnet build /ContactList.WebApi/ContactList.sln -c Debug -f netcoreapp2.0
