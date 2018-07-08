@@ -1,6 +1,6 @@
 sudo: false
 language: csharp
-solution: "travis-ci_sample/travis-ci_sample.sln"
+solution: "ContactList.WebApi/ContactList.sln"
 branches:
  only:
   - master
