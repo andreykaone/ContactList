@@ -5,12 +5,11 @@ branches:
  only:
   - master
 script:
-  - dotnet restore
   - dotnet build ./ContactList.WebApi/ContactList.sln -c Release
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $github-token
+  github-token: github-token
   keep-history: true
   on:
     branch: master
