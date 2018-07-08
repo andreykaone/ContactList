@@ -11,3 +11,4 @@ deploy:
   access_key_id: AKIAIU44V3FCYOTPWKCQ
   secret_access_key: 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
   bucket: uniqbucketname1999
+  skip_cleanup: true
