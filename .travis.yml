@@ -1,7 +1,8 @@
 sudo: false
 language: csharp
-mono: none
 solution: "ContactList.WebApi/ContactList.WebApi/ContactList.WebApi.csproj"
+mono: none
+dotnet: 2.0.0
 branches:
  only:
   - master
