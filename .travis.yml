@@ -6,4 +6,7 @@ dotnet: 2.0.0
 branches:
  only:
   - master
-
+before_script:
+  - dotnet restore
+script:
+  - dotnet build ./ContactList.WebApi/ContactList.sln -c Debug -f netcoreapp2.0
