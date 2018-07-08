@@ -6,7 +6,6 @@ branches:
   - master
 script:
   - dotnet build ./ContactList.WebApi/ContactList.sln -c Release
-  travis setup releases
 deploy:
       - provider: s3
       - provider: codedeploy
