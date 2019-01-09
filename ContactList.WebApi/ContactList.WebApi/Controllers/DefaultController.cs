@@ -15,7 +15,7 @@ namespace ContactList.WebApi.Controllers
         
         // GET: api/masya
         [HttpGet("masya")]
-        public IEnumerable<string> Get()
+        public IEnumerable<string> Get2()
         {
             return new string[] { "Hello, Masya! <3" };
         }
