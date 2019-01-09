@@ -12,5 +12,12 @@ namespace ContactList.WebApi.Controllers
         {
             return new string[] { "hello, Nikita!" };
         }
+        
+        // GET: api/masya
+        [HttpGet("masya")]
+        public IEnumerable<string> Get()
+        {
+            return new string[] { "Hello, Masya! <3" };
+        }
     }
 }
