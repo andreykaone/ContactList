@@ -10,7 +10,7 @@ namespace ContactList.WebApi.Controllers
         [HttpGet("get")]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2", "value3" };
+            return new string[] { "hello, Nikita!" };
         }
     }
 }
