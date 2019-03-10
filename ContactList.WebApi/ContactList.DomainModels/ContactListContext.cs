@@ -13,7 +13,7 @@ namespace ContactList.DomainModel
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=localhost,1401;Database=ContactList;Trusted_Connection=True;");
+            //optionsBuilder.UseSqlServer(@"Server=localhost,1401;Database=ContactList;Trusted_Connection=True;");
         }
     }
 
